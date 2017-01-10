@@ -1,0 +1,31 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="prefuse.Visualization.items",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node2 [label="prefuse.Display.paintDisplay",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classprefuse_1_1_display.html#a59ca67442b8f3c80fa3f463e7b669fd5"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node3 [label="prefuse.Visualization.removeGroup",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classprefuse_1_1_visualization.html#a64ef5f9f69c0a9dcd7732f9670d9989f"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node4 [label="prefuse.Visualization.invalidate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classprefuse_1_1_visualization.html#aef209f4870df924027da10535e2489cd"];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node5 [label="prefuse.Visualization.invalidateAll",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classprefuse_1_1_visualization.html#aa70803151c42cbaa315d039ef03029c4"];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node6 [label="prefuse.Visualization.setRendererFactory",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classprefuse_1_1_visualization.html#a244df5451b60bb17468e4e67c9fda8b4"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node7 [label="prefuse.Visualization.visibleItems",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classprefuse_1_1_visualization.html#a5fc7d32d717504042c7b5ee45c41b739"];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node8 [label="prefuse.Visualization.getBounds",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classprefuse_1_1_visualization.html#a253abedc42e162023540faefb313ea9e"];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node9 [label="prefuse.Visualization.items",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classprefuse_1_1_visualization.html#a6c3b3afd67dbfbb043cd88bbd381455c"];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node10 [label="prefuse.Visualization.setValue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classprefuse_1_1_visualization.html#a133f85981830aa281dbf8e78709d2318"];
+  Node1 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node11 [label="prefuse.Visualization.setVisible",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classprefuse_1_1_visualization.html#aeff1a9b92b2b64dc4aad535c750b95a5"];
+  Node1 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node12 [label="prefuse.Visualization.setInteractive",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classprefuse_1_1_visualization.html#a3b9de7f2323164f1978fd23f632ff274"];
+  Node1 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node13 [label="prefuse.Visualization.repaint",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classprefuse_1_1_visualization.html#a77146c0f22cfd4bd6bace12fc0a0b3db"];
+}
